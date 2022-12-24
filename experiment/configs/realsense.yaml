@@ -1,0 +1,48 @@
+dataset: 'realsense'
+sync_method: strict
+tracking:
+  vis_freq: 10
+  vis_inside_freq: 50
+  ignore_edge_W: 30
+  ignore_edge_H: 30
+  seperate_LR: False
+  const_speed_assumption: True
+  gt_camera: False
+  # lr: 0.0002 # scene07 and after
+  # pixels: 20 # scene07 and after
+  # iters: 2 # scene07 and after
+  lr: 0.00005
+  pixels: 5
+  iters: 1
+
+mapping:
+  every_frame: 2
+  vis_freq: 50
+  vis_inside_freq: 30
+  mesh_freq: 50
+  ckpt_freq: 500
+  keyframe_every: 50
+  mapping_window_size: 10
+  pixels: 5000
+  iters_first: 1000
+  iters: 50 # 60
+cam:
+  H: 480 
+  W: 640
+  fx: 617.17619516
+  fy: 609.4829349
+  cx: 315.204921
+  cy: 218.08113299
+  png_depth_scale: 1.0 ## 1.0 # for depth image in png format
+  crop_edge: 30 # 30 # scene07 and after
+mapping:
+  # bound: [[-20.0, 20.0], [-20.0, 20.0], [-3.0, 3.0]]
+  # marching_cubes_bound: [[-20.0, 20.0], [-20.0, 20.0], [-3.0, 3.0]]
+  # bound: [[-17.0, 17.0], [-17.0, 17.0], [-4.2, 4.2]] # scene 00 SA
+  # marching_cubes_bound: [[-17.0, 17.0], [-17.0, 17.0], [-4.2, 4.2]] # scene 00 SA
+  bound: [[-10.5, 10.5], [-10.5, 10.5], [-8.0, 8.0]]  # scene07 and after
+  marching_cubes_bound: [[-10.5, 10.5], [-10.5, 10.5], [-8.0, 8.0]]  # scene07 and after
+data:
+  input_folder: Datasets/Realsense/scene0
+  output: output/Realsense/scene0
+  # output: output/Realsense/scene0_SA
