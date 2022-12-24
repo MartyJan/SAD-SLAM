@@ -2,12 +2,12 @@
 
 ## Installation
 First you have to make sure that you have all dependencies in place. 
-You can create an anaconda environment called ```nice-slam-exp```  . 
+You can create an anaconda environment called ```sad-slam-exp```  . 
 For linux, you need to install libopenexr-dev before creating the environment.
 ```  
 sudo apt-get install libopenexr-dev
-conda create --name nice-slam-exp --file spec.txt
-conda activate nice-slam-exp
+conda create --name sad-slam-exp --file spec.txt
+conda activate sad-slam-exp
 ```
 ## Parameters (e.g., file paths)
 You could modify your input and output paths in the file ``` configs/realsense.yaml```. 
