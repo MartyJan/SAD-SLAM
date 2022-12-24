@@ -4,8 +4,8 @@
 * Course: 3D Computer Vision with Deep Learning Applications 
 * Semester: Fall 2022
 * Final Project: Sign-Agnostic Dynamic Simultaneous Localization and Mapping
-* Team 11
-* Team Members: 王琮文、詹易玹、王奕方
+* Group 11
+* Group Members: 王琮文、詹易玹、王奕方
 * Instructor: Chu-Song Chen
 * National Taiwan University
 
