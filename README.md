@@ -23,12 +23,12 @@ The objective of our project is to
 * remove dynamic objects.
 <br />
 We validate our proposed SAD-SLAM on some datasets and experiments. 
-Please refer to the three individual directory to see our work. 
-Thank you. 
+Please refer to the three individual directories,  
+thank you. 
 
 ---
 
-## SA Optimization
+## Sign-Agnostic (SA) Optimization
 to do ...
 
 ---
