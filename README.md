@@ -1,9 +1,9 @@
-# SAD-SLAM (Sign-Agnostic Dynamic SLAM)
+# SAD-SLAM: Sign-Agnostic Dynamic SLAM
 
 
 * Course: 3D Computer Vision with Deep Learning Applications 
 * Semester: Fall 2022
-* Final Project: Sign-Agnostic Dynamic Simultaneous Localization and Mapping
+* Final Project: Sign-Agnostic Dynamic Simultaneous Localization and Mapping (SAD-SLAM)
 * Group 11
 * Group Members: 王琮文、詹易玹、王奕方
 * Instructor: Chu-Song Chen
