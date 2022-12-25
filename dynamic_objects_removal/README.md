@@ -18,7 +18,7 @@ The [Bonn RGB-D Dynamic Dataset](https://www.ipb.uni-bonn.de/data/rgbd-dynamic-d
 
 
 ## Background Inpainting Demo
-Change the directory to the `demo` folder and run `repaint.py`:
+Change the working directory to the `demo` folder and run `repaint.py`:
 ```bash
 cd ./demo
 python repaint.py
@@ -27,12 +27,12 @@ This outputs six images `prev_*.png`, `curr_*.png` and `repainted_*.png` in the 
 
 ## NICE-SLAM with Mask R-CNN
 
-First, unzip the `rgbd_bonn_crowd.zip` file into the `.segment/Datasets/` directory.
+First, unzip the `rgbd_bonn_crowd.zip` file into the `./segment/Datasets/` directory.
 ```bash
 unzip rgbd_bonn_crowd -d .segment/Datasets/
 ```
 
-Second, change the directory to the `segment` folder and run SLAM.
+Second, change the working directory to the `segment` folder and run SLAM.
 ```bash
 cd ./segment
 python -W ignore run.py configs/Bonn/rgbd_bonn_crowd.yaml
@@ -52,12 +52,12 @@ This will output the ATE plot stored as `eval_ate_plot.png` in the `./segment/ou
 
 ## NICE-SLAM with Mask R-CNN and Background Inpainting
 
-First, unzip the `rgbd_bonn_crowd.zip` file into the `.segment_repaint/Datasets/` directory.
+First, unzip the `rgbd_bonn_crowd.zip` file into the `./segment_repaint/Datasets/` directory.
 ```bash
 unzip rgbd_bonn_crowd -d .segment_repaint/Datasets/
 ```
 
-Second, change the directory to the `segment_repaint` folder and run SLAM.
+Second, change the working directory to the `segment_repaint` folder and run SLAM.
 ```bash
 cd ./segment_repaint
 python -W ignore run.py configs/Bonn/rgbd_bonn_crowd.yaml
