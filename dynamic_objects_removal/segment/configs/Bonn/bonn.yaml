@@ -1,0 +1,39 @@
+dataset: 'bonn'
+grid_len:
+  coarse: 2 
+  middle: 0.16
+  fine: 0.08
+  color: 0.08
+  bound_divisible: 0.32
+tracking:
+  vis_freq: 50
+  vis_inside_freq: 25
+  ignore_edge_W: 20
+  ignore_edge_H: 20
+  seperate_LR: True
+  const_speed_assumption: True
+  gt_camera: False
+  lr: 0.01     
+  pixels: 1000 # 5000
+  iters: 200
+mapping:
+  every_frame: 5
+  vis_freq: 50
+  vis_inside_freq: 25
+  mesh_freq: 25
+  ckpt_freq: 50 # 500
+  keyframe_every: 50
+  mapping_window_size: 10
+  pixels: 1000 # 5000
+  iters_first: 1500
+  iters: 60
+
+cam:
+  H: 480 
+  W: 640 
+  fx: 542.822841
+  fy: 542.576870
+  cx: 315.593520
+  cy: 237.756098
+  png_depth_scale: 5000.0
+  crop_edge: 0

@@ -1,0 +1,17 @@
+inherit_from: configs/Bonn/bonn.yaml
+mapping:
+  bound:  [[-10,10],[-10, 10],[-8,8]]  # [[-4.6,2.6],[-3.3,3.2],[-2.0,4.9]]
+  marching_cubes_bound: [[-10,10],[-10,10],[-5,5]] # [[-2.6,1.1],[-1.5,1.5],[-0.6,2.4]]
+data:
+  input_folder: Datasets/rgbd_bonn_crowd
+  output: output/rgbd_bonn_crowd
+cam:
+  H: 480 
+  W: 640 
+  fx: 517.3
+  fy: 516.5
+  cx: 318.6
+  cy: 255.3
+  crop_edge: 8
+  crop_size: [384,512]
+  distortion: [0.039903, -0.099343, -0.000730,  -0.000144, 0.000000]
