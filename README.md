@@ -36,7 +36,6 @@ to do ...
 ## Dynamic objects removal
 We implemented dynamic objects removal in NICE SLAM using Mask R-CNN and background inpainting.
 Please change the working directory to `./dynamic_objects_removal` and read the `README.md` file in the folder for more information.
----
 
 ## Experiments
 To validate NICE-SLAM and our proposed methods, we used Intel® RealSense™ Depth Camera D435i, an RGB-D camera, to compare the results. 
