@@ -247,5 +247,5 @@ for i in range(bool_masks.shape[0]):
 
 gt_color = torch.from_numpy(curr_color_img / 255.).permute(1,0,2)
 gt_depth = curr_depth_img.permute(1,0)
-cv2.imwrite('repainted_rgb.png', gt_color.numpy()*255)
-cv2.imwrite('repainted_depth.png', gt_depth.numpy()*png_depth_scale)
+cv2.imwrite('inpainted_rgb.png', gt_color.numpy()*255)
+cv2.imwrite('inpainted_depth.png', gt_depth.numpy()*png_depth_scale)

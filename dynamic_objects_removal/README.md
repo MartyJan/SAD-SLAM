@@ -18,12 +18,12 @@ The [Bonn RGB-D Dynamic Dataset](https://www.ipb.uni-bonn.de/data/rgbd-dynamic-d
 
 
 ## Background Inpainting Demo
-Change the working directory to the `demo` folder and run `repaint.py`:
+Change the working directory to the `demo` folder and run `inpaint.py`:
 ```bash
 cd ./demo
-python repaint.py
+python inpaint.py
 ```
-This outputs six images `prev_*.png`, `curr_*.png` and `repainted_*.png` in the working directory. `prev_rgb.png` and `prev_depth.png` are the RGB-D channel of the source frame (previous keyframe) for background inpainting. `curr_rgb.png` and `curr_depth.png` are the RGB-D channel of the current frame to be repainted. `repainted_rgb.png` and `repainted_depth.png` are the RGB-D channel of the current frame after background inpainting. 
+This outputs six images `prev_*.png`, `curr_*.png` and `inpainted_*.png` in the working directory. `prev_rgb.png` and `prev_depth.png` are the RGB-D channel of the source frame (previous keyframe) for background inpainting. `curr_rgb.png` and `curr_depth.png` are the RGB-D channel of the current frame to be inpainted. `inpainted_rgb.png` and `inpainted_depth.png` are the RGB-D channel of the current frame after background inpainting. 
 
 ## NICE-SLAM with Mask R-CNN
 
@@ -52,14 +52,14 @@ This will output the ATE plot stored as `eval_ate_plot.png` in the `./segment/ou
 
 ## NICE-SLAM with Mask R-CNN and Background Inpainting
 
-First, unzip the `rgbd_bonn_crowd.zip` file into the `./segment_repaint/Datasets/` directory.
+First, unzip the `rgbd_bonn_crowd.zip` file into the `./segment_inpaint/Datasets/` directory.
 ```bash
-unzip rgbd_bonn_crowd -d .segment_repaint/Datasets/
+unzip rgbd_bonn_crowd -d .segment_inpaint/Datasets/
 ```
 
-Second, change the working directory to the `segment_repaint` folder and run SLAM.
+Second, change the working directory to the `segment_inpaint` folder and run SLAM.
 ```bash
-cd ./segment_repaint
+cd ./segment_inpaint
 python -W ignore run.py configs/Bonn/rgbd_bonn_crowd.yaml
 ```
 Note that this program requires a lot of computational resources. It processed only 1/10 of our testing image sequence for about 5hr when running on Nvidia RTX 3080.
