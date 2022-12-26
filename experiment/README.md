@@ -1,4 +1,4 @@
-# Experiments based on SAD-SLAM
+# Experiments Based on SAD-SLAM
 
 ## Installation
 First you have to make sure that you have all dependencies in place. 
