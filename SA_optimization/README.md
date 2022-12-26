@@ -13,7 +13,7 @@ conda activate nice-slam-sa
 
 ## Dataset
 
-We use ScanNet(500 frames) and Replica(room0) to evaluate the performance improvement of mapping and tracking.
+We used ScanNet(500 frames) and Replica(room0) to evaluate the performance improvement of mapping and tracking.
 First download the dataset.
 ### ScanNet
 ```bash

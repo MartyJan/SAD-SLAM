@@ -29,7 +29,7 @@ thank you.
 ---
 
 ## Sign-Agnostic (SA) Optimization
-We improve the performance of mapping and tracking in NICE SLAM using Sign-Agnostic optimization.
+We improved the performance of mapping and tracking in NICE SLAM using Sign-Agnostic optimization.
 Please change the working directory to `./SA_optimization` and read the `README.md` file in the folder for more information.
 
 ---
