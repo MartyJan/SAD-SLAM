@@ -1,5 +1,5 @@
 # Dynamic Objects Removal
-## Environment Setup
+## Environment setup
 
 First you have to make sure that you have all dependencies in place.
 The simplest way to do so, is to use [anaconda](https://www.anaconda.com/). 
@@ -17,7 +17,7 @@ conda activate nice-slam
 The [Bonn RGB-D Dynamic Dataset](https://www.ipb.uni-bonn.de/data/rgbd-dynamic-dataset/) was used to evaluate the performance of our model in dynamic scenes. We selected the image sequence named “rgbd_bonn_crowd” in the dataset, which captures a scene sometimes blocked by people walking through, for model evaluation. Download this testing image sequence from [here](https://www.ipb.uni-bonn.de/html/projects/rgbd_dynamic2019/rgbd_bonn_crowd.zip).
 
 
-## Background Inpainting Demo
+## Background inpainting demo
 Change the working directory to the `demo` folder and run `inpaint.py`:
 ```bash
 cd ./demo
@@ -50,7 +50,7 @@ python src/tools/eval_ate.py configs/Bonn/rgbd_bonn_crowd.yaml
 This will output the ATE plot stored as `eval_ate_plot.png` in the `./segment/output/rgbd_bonn_crowd/` directory.
 
 
-## NICE-SLAM with Mask R-CNN and Background Inpainting
+## NICE-SLAM with Mask R-CNN and background inpainting
 
 First, unzip the `rgbd_bonn_crowd.zip` file into the `./segment_inpaint/Datasets/` directory.
 ```bash

@@ -1,5 +1,5 @@
 # Sign-Agnostic (SA) Optimization
-## Environment Setup
+## Environment setup
 
 First you have to make sure that you have all dependencies in place.
 The simplest way to do so, is to use [anaconda](https://www.anaconda.com/). 
@@ -27,7 +27,7 @@ bash scripts/download_replica.sh
 ## Demo
 
 Here we provide trained ScanNet and Replica for demo.
-### Visualize
+### Visualization
 To visualize reconstructed mesh for ScanNet and Replica:
 ```bash
 python visualizer.py configs/ScanNet/scannet.yaml
