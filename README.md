@@ -27,10 +27,10 @@ SAD-SLAM: Sign-Agnostic Dynamic SLAM
 ---
 
 ## NICE-SLAM and SAD-SLAM
-In 2022, Zhu et al. proposed Neural Implicit Scalable Encoding for SLAM (NICE-SLAM) 
+In 2022, Zhu et al. proposed Neural Implicit Scalable Encoding for SLAM (NICE-SLAM)
 that incorporates multi-level local information, 
 and neural implicit representations are introduced to
-make the dense SLAM system more scalable, efficient, and robust. 
+make the dense SLAM system more scalable, efficient, and robust [1]. 
 However, NICE-SLAM still has some issues presented in our report. 
 To improve the orignal NICE-SLAM architecture, 
 we propose Sign-Agnostic Dynamic SLAM (SAD-SLAM). 
