@@ -4,21 +4,17 @@ SAD-SLAM: Sign-Agnostic Dynamic SLAM
 </h1>
 
 <h2 align="center">
-<a href="https://github.com/MartyJan/SAD-SLAM"><strong> code </strong></a>
+<a href="https://github.com/MartyJan/SAD-SLAM"><strong> Code </strong></a>
 |
-<a href="https://youtu.be/dVUWtoyijMk"><strong> video </strong></a>
+<a href="https://youtu.be/dVUWtoyijMk"><strong> Video </strong></a>
 |
-<a href="https://github.com/MartyJan/SAD-SLAM/blob/main/report.pdf"><strong> report </strong></a>
+<a href="https://github.com/MartyJan/SAD-SLAM/blob/main/report.pdf"><strong> Report </strong></a>
 </h2>
 
 </p>
 
----
-
-# Final Project: SAD-SLAM
 * Course: 3D Computer Vision with Deep Learning Applications 
 * Semester: Fall 2022
-* Topic: Sign-Agnostic Dynamic Simultaneous Localization and Mapping (SAD-SLAM)
 * Group 11
 * Group Members: 王琮文、詹易玹、王奕方
 * Instructor: Chu-Song Chen
