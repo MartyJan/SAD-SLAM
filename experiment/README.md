@@ -29,8 +29,8 @@ The original NICE-SLAM runs on ```Mapper.py``` and ```Renderer.py```.
 If you want to run on our proposed SAD-SLAM, 
 two files should be renamed, which are located at
 ``` 
-src/Mapper_Fan.py
-src/utils/Renderer_Fan.py
+src/Mapper_Fang.py
+src/utils/Renderer_Fang.py
 ``` 
 The above two files should be renamed to ```Mapper.py``` and ```Renderer.py```, respectively. 
 Then, you can run our SAD-SLAM. 
@@ -38,7 +38,7 @@ Then, you can run our SAD-SLAM.
 python -W ignore run.py configs/realsense.yaml
 ```
 
-## Visualizing results
+## Visualizing our result
 ```  
 python visualizer.py configs/realsense.yaml --no_gt_traj
 ```
