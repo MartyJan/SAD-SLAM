@@ -3,13 +3,13 @@
 SAD-SLAM: Sign-Agnostic Dynamic SLAM
 </h1>
 
-<h2 align="center">
+<h3 align="center">
 <a href="https://github.com/MartyJan/SAD-SLAM"><strong> Code </strong></a>
 |
 <a href="https://youtu.be/dVUWtoyijMk"><strong> Video </strong></a>
 |
 <a href="https://github.com/MartyJan/SAD-SLAM/blob/main/report.pdf"><strong> Report </strong></a>
-</h2>
+</h3>
 
 </p>
 
