@@ -41,8 +41,8 @@ The objective of our project is to
 
 The results are demonstrated in our [video](https://youtu.be/dVUWtoyijMk) and [report](https://github.com/MartyJan/SAD-SLAM/blob/main/report.pdf): 
 we validated our proposed SAD-SLAM on some datasets and experiments.
-Three subtopics will be mainly discussed in the following sections, 
-including two solutions and one experiment; 
+Three topics will be mainly discussed in the following sections, 
+including our two proposed methods and one experiment; and
 they are all included in their individual directories. 
 
 ---
