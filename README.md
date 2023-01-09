@@ -27,7 +27,7 @@ SAD-SLAM: Sign-Agnostic Dynamic SLAM
 ---
 
 ## NICE-SLAM and SAD-SLAM
-In 2022, Zhu et al. proposed Neural Implicit Scalable Encoding for SLAM (NICE-SLAM)
+In 2022, Zhu et al. proposed Neural Implicit Scalable Encoding for SLAM ([NICE-SLAM](https://github.com/cvg/nice-slam))
 that incorporates multi-level local information, 
 and neural implicit representations are introduced to
 make the dense SLAM system more scalable, efficient, and robust [1]. 
@@ -38,7 +38,8 @@ The objective of our project is to
 * optimize mapping and tracking, and
 * remove dynamic objects. 
 <br />
-The results are demonstrated in our Youtube video and report: 
+
+The results are demonstrated in our [video](https://youtu.be/dVUWtoyijMk) and [report](https://github.com/MartyJan/SAD-SLAM/blob/main/report.pdf): 
 we validated our proposed SAD-SLAM on some datasets and experiments.
 Three subtopics will be mainly discussed in the following sections, 
 including two solutions and one experiment; 
@@ -48,19 +49,19 @@ they are all included in their individual directories.
 
 ## Sign-Agnostic (SA) Optimization
 We improved the performance of mapping and tracking in NICE SLAM using Sign-Agnostic optimization.
-Please change the working directory to `./SA_optimization` and read the `README.md` file in the folder for more information.
+Please change the working directory to `./SA_optimization` and read the [`README.md`](https://github.com/MartyJan/SAD-SLAM/tree/main/SA_optimization) for more information.
 
 ---
 
 ## Dynamic Objects Removal
 We implemented dynamic objects removal in NICE SLAM using Mask R-CNN and background inpainting.
-Please change the working directory to `./dynamic_objects_removal` and read the `README.md` file in the folder for more information.
+Please change the working directory to `./dynamic_objects_removal` and read the [`README.md`](https://github.com/MartyJan/SAD-SLAM/tree/main/dynamic_objects_removal) for more information.
 
 ---
 
 ## Experiments
 To validate NICE-SLAM and our proposed methods, we used Intel® RealSense™ Depth Camera D435i, an RGB-D camera, to compare the results. 
-Please change the working directory to `./experiment` and read the `README.md` file in the folder for more information.
+Please change the working directory to `./experiment` and read the [`README.md`](https://github.com/MartyJan/SAD-SLAM/tree/main/experiment) for more information.
 
 ---
 
