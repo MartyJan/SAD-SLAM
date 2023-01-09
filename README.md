@@ -1,8 +1,7 @@
 <p align="center">
-<h1 align="center" style="border-bottom: none">
+<h1 align="center">
 SAD-SLAM: Sign-Agnostic Dynamic SLAM
 </h1>
-
 <h3 align="center">
 <a href="https://github.com/MartyJan/SAD-SLAM"><strong> Code </strong></a>
 |
