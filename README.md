@@ -1,5 +1,5 @@
 <p align="center">
-<h1 align="center">
+<h1 align="center" style="border-bottom: none">
 SAD-SLAM: Sign-Agnostic Dynamic SLAM
 </h1>
 
